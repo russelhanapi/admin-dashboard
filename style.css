@@ -16,3 +16,58 @@ section {
   grid-template-columns: 240px 1fr;
   grid-template-rows: 15fr 75fr;
 }
+
+/* NOTE: Sidebar */
+.sidebar {
+  background-color: #1992d4;
+  grid-row: 1 / -1;
+  padding: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
+.logo {
+  height: 28px;
+  width: 28px;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.list-item {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.small-icon {
+  color: #fff;
+  height: 20px;
+  width: 20px;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+}
